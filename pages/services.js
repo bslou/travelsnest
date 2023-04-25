@@ -95,7 +95,7 @@ const Services = () => {
                   textAlign={"center"}
                   fontSize={{ base: "7pt", md: "11.5pt", lg: "18pt" }}
                 >
-                  COMMING
+                  COMING
                   <br />
                   SOON
                 </Text>
@@ -135,7 +135,7 @@ const Services = () => {
                   textAlign={"center"}
                   fontSize={{ base: "7pt", md: "11.5pt", lg: "18pt" }}
                 >
-                  COMMING
+                  COMING
                   <br />
                   SOON
                 </Text>

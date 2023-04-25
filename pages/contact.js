@@ -163,7 +163,7 @@ const Contact = () => {
               marginTop={7}
               target={"_blank"}
               href={
-                "https://mail.google.com/mail/u/0/#inbox/FMfcgzGslkpLqHzNNnpLzHpWQSFDmNnF?compose=GTvVlcRzDRDVSnzRTFvPqQnxPjpLgLMwjlGjrlVLztcPWqbMXMhMGxMrZTTlcPlrhZFJhwXzFMnNx"
+                "https://mail.google.com/mail/u/0/#inbox?compose=VpCqJTBqRSmBSWNCJMXvmCVDDGRkqMtLhlZZxXcMGnbvBzxMdczsjPzsWWMPzGjBddtSwMg"
               }
             >
               host@travelsnest.com

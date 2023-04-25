@@ -11,17 +11,17 @@ const Vids = () => {
    */
   //max two vids per interior array, include url of image and the title, you can put as many videos in as you want!
   const videos = [
-    [
-      ["r8fCwUiOtiQ", "Title of the Video"],
-      ["r8fCwUiOtiQ", "Title of the Video"],
-      ["r8fCwUiOtiQ", "Title of the Video"],
-    ],
-    [
-      ["r8fCwUiOtiQ", "Title of the Video"],
-      ["r8fCwUiOtiQ", "Title of the Video"],
-      ["r8fCwUiOtiQ", "Title of the Video"],
-    ],
-    [["r8fCwUiOtiQ", "Title of the Video"]],
+    // [
+    //   ["r8fCwUiOtiQ", "Title of the Video"],
+    //   ["r8fCwUiOtiQ", "Title of the Video"],
+    //   ["r8fCwUiOtiQ", "Title of the Video"],
+    // ],
+    // [
+    //   ["r8fCwUiOtiQ", "Title of the Video"],
+    //   ["r8fCwUiOtiQ", "Title of the Video"],
+    //   ["r8fCwUiOtiQ", "Title of the Video"],
+    // ],
+    // [["r8fCwUiOtiQ", "Title of the Video"]],
   ];
   /*
    * IMPORT MESSAGE
@@ -218,7 +218,15 @@ const Vids = () => {
             gap={{ base: 6, md: 8, lg: 10 }}
           >
             {rows.length <= 0 ? (
-              <Text fontSize={{ lg: "50pt" }}>Videos Coming Soon!</Text>
+              <Flex
+                width={"100%"}
+                alignItems={"center"}
+                justifyContent={"center"}
+                marginTop={20}
+                marginBottom={20}
+              >
+                <Text fontSize={{ lg: "50pt" }}>Videos Coming Soon!</Text>
+              </Flex>
             ) : (
               rows
             )}

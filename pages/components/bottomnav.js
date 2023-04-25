@@ -1,3 +1,5 @@
+import { useRouter } from "next/router";
+
 const {
   Flex,
   Text,
@@ -10,6 +12,7 @@ const {
 } = require("@chakra-ui/react");
 
 const BottomNav = () => {
+  const router = useRouter();
   return (
     <Flex
       direction={"column"}
@@ -115,7 +118,7 @@ const BottomNav = () => {
             host@travelsnest.com
           </Link>
           <Text fontSize={{ base: "6pt", md: "9pt", lg: "12pt" }}>
-            San Francisco, California
+            Silicon Valley, California
           </Text>
           <Text fontSize={{ base: "6pt", md: "9pt", lg: "12pt" }}>
             650-249-9917
@@ -156,6 +159,7 @@ const BottomNav = () => {
             paddingRight={4}
             colorScheme={"transparent"}
             fontSize={{ base: "6pt", md: "9pt", lg: "12pt" }}
+            onClick={() => router.push("https://calendly.com/tnhost")}
           >
             Book a Call
           </Button>

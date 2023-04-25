@@ -12,23 +12,23 @@ export default function Home() {
    */
   //max houses = 4 but you can do less if you wan (including 0 just do [] for houses)
   //homes array: img 1, name of the rental thing, link
-  const houses = [
-    ["/garage.jpeg", "Sky Lanterns", "https://www.stayhikaru.com/"],
-    ["/garage.jpeg", "Sky Lanterns", "https://www.stayhikaru.com/"],
-    ["/garage.jpeg", "Sky Lanterns", "https://www.stayhikaru.com/"],
-    ["/garage.jpeg", "Sky Lanterns", "https://www.stayhikaru.com/"],
-  ];
-  //const houses = [];
+  // const houses = [
+  //   ["/garage.jpeg", "Sky Lanterns", "https://www.stayhikaru.com/"],
+  //   ["/garage.jpeg", "Sky Lanterns", "https://www.stayhikaru.com/"],
+  //   ["/garage.jpeg", "Sky Lanterns", "https://www.stayhikaru.com/"],
+  //   ["/garage.jpeg", "Sky Lanterns", "https://www.stayhikaru.com/"],
+  // ];
+  const houses = [];
 
   //all the style variables are below, change accordingly
   const [firstStyle, setFirstStyle] = useState("Impeccable Style");
-  const [secondStyle, setSecondStyle] = useState("Impeccable Style");
-  const [thirdStyle, setThirdStyle] = useState("Impeccable Style");
+  const [secondStyle, setSecondStyle] = useState("Professionally Cleaned");
+  const [thirdStyle, setThirdStyle] = useState("Exceptional Service");
 
   //all the images variables are below, style accordingly
-  let img1 = "/des.webp";
+  let img1 = "/des2.webp";
   let img2 = "/des.webp";
-  let img3 = "/des.webp";
+  let img3 = "/serv.jpeg";
   //only 3 quotes allowed for now
   const quotes = [
     [
@@ -105,13 +105,13 @@ With Travelsnest, you can relax and settle into your new home away from home, kn
               color={"#AD8221"}
               fontWeight={600}
             >
-              TRAVELSNEST
+              TRAVELS NEST
             </Text>
             <Text
               color={"black"}
               fontSize={{ base: "14pt", md: "21pt", lg: "27pt" }}
             >
-              Polished Glowing Interior
+              Polished Corporate Stays
             </Text>
           </Flex>
         </Flex>
@@ -301,6 +301,7 @@ With Travelsnest, you can relax and settle into your new home away from home, kn
               <Image
                 src={img1}
                 width={"20vw"}
+                height={"25vh"}
                 alt={"TravelsNest is top rated for corporate rental"}
               />
               <Text fontSize={{ base: "15pt", md: "18pt", lg: "21pt" }}>
@@ -317,6 +318,7 @@ With Travelsnest, you can relax and settle into your new home away from home, kn
               <Image
                 src={img2}
                 width={"20vw"}
+                height={"25vh"}
                 alt={"TravelsNest is top rated for corporate rental"}
               />
               <Text fontSize={{ base: "15pt", md: "18pt", lg: "21pt" }}>
@@ -333,6 +335,7 @@ With Travelsnest, you can relax and settle into your new home away from home, kn
               <Image
                 src={img3}
                 width={"20vw"}
+                height={"25vh"}
                 alt={"TravelsNest is top rated for corporate rental"}
               />
               <Text fontSize={{ base: "15pt", md: "18pt", lg: "21pt" }}>
