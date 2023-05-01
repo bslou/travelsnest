@@ -41,7 +41,7 @@ export default function Home() {
     ],
     [
       "The house quality is magnificent to say the least. My children really enjoyed staying at our house in SF, and we greatly recommend others TravelsNest.",
-      "-Riley Ko",
+      "-Riley Khora",
     ],
   ];
 
