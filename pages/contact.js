@@ -163,7 +163,7 @@ const Contact = () => {
               marginTop={7}
               target={"_blank"}
               href={
-                "https://mail.google.com/mail/u/0/#inbox?compose=VpCqJTBqRSmBSWNCJMXvmCVDDGRkqMtLhlZZxXcMGnbvBzxMdczsjPzsWWMPzGjBddtSwMg"
+                "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=host@travelsnest.com"
               }
             >
               host@travelsnest.com

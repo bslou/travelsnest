@@ -10,9 +10,11 @@ const {
   MenuButton,
   MenuList,
   MenuItem,
+  useToast,
 } = require("@chakra-ui/react");
 
 const Nav = () => {
+  const toast = useToast();
   const router = useRouter();
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
   // const menuRef = useRef();
@@ -97,6 +99,14 @@ const Nav = () => {
               fontSize={{ base: "8pt", md: "9.5pt", lg: "11pt" }}
               fontWeight={800}
               color={"#AD8221"}
+              onClick={() =>
+                toast({
+                  title: "No properties yet...",
+                  duration: 3000,
+                  status: "info",
+                  isClosable: true,
+                })
+              }
             >
               San Francisco
             </MenuItem>
@@ -112,6 +122,17 @@ const Nav = () => {
           onClick={() => router.push("/videos")}
         >
           VIDEOS
+        </Link>
+        <Link
+          fontSize={{ base: "8pt", md: "9.5pt", lg: "11pt" }}
+          fontWeight={800}
+          color={"#AD8221"}
+          _hover={{
+            color: "#C29223",
+          }}
+          onClick={() => router.push("/partners")}
+        >
+          PARTNERS
         </Link>
         {/* <Link
           fontSize={"11pt"}

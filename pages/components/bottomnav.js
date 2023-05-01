@@ -112,7 +112,7 @@ const BottomNav = () => {
             fontSize={{ base: "6pt", md: "9pt", lg: "12pt" }}
             target={"_blank"}
             href={
-              "https://mail.google.com/mail/u/0/#inbox/FMfcgzGslkpLqHzNNnpLzHpWQSFDmNnF?compose=GTvVlcRzDRDVSnzRTFvPqQnxPjpLgLMwjlGjrlVLztcPWqbMXMhMGxMrZTTlcPlrhZFJhwXzFMnNx"
+              "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=host@travelsnest.com"
             }
           >
             host@travelsnest.com
