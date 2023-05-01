@@ -33,15 +33,15 @@ export default function Home() {
   const quotes = [
     [
       "This was by far the best rental I've been in. Check-in was incredibly simple, the location is great, the apartment is beautifully appointed, and impeccably clean. No question - I would definitely rent another TravelsNest property. This should be the gold standard.",
-      "-Terry Fox",
+      "-Terry",
     ],
     [
       "The customer service at TravelsNest is next level. The owner responds in a quickly and timely manner, and if there are any problems they are resolved rapidly.",
-      "—Michael Neschastnik",
+      "—Michael",
     ],
     [
       "The house quality is magnificent to say the least. My children really enjoyed staying at our house in SF, and we greatly recommend others TravelsNest.",
-      "-Riley Khora",
+      "-Riley",
     ],
   ];
 
